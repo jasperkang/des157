@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,800);
+
+* {
+margin:0;
+padding:0;
+}
+
+body {
+font-family:'Open Sans';
+}
+
+p {
+line-height:1.25em;
+margin-bottom: 1em;    
+}
+
+h1 {
+
+color: #2B2B2B;
+font-weight: 500;
+}
+
+h3 {
+font-size:1em;    
+}
+
+#wrapper {
+width: 755px;
+position:relative;
+margin: auto;
+background-color:#74AFAD;
+}
+
+#navcontainer ul {
+background-color: #009090;
+float: left;
+width: 100%;
+padding-right: 32px; 
+padding: 0;
+margin: 0;
+}
+#navcontainer ul li {
+display: inline;
+}
+
+#navcontainer ul li a {
+padding: 0.2em 1em;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+color: #fff;
+}
+
+#navcontainer ul li a:hover {
+background-color: #369;
+}
+#navcontainer ul li #current {
+background-color: #369;
+}
+
+#main {
+float: left;
+width: 100%;
+background-color:#558C89;
+padding-left:2em;
+}
+
+#picture {
+width: 40%;
+float:left;
+margin:10px;
+}
+
+#article {
+width: 40%;
+float:right;
+margin:10px;
+}
+

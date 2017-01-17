@@ -1,0 +1,31 @@
+/* CSS for small devices / Smart Phones */
+
+@media screen and (max-width: 400px) {
+    .width {
+        width: 100%;
+    }
+    
+    #nav {
+        display:none;
+    }
+}
+/* CSS for medium devices / Tablets */
+
+@media screen and (min-width: 401px) and (max-width: 778px) {
+    .width {
+        width: 40%;
+        height: 200px;
+    }
+
+}
+  
+/* CSS for large device / Computers */
+
+@media screen and (min-width: 779px) {
+    
+    .width {
+        width: 30%;
+    }
+
+}
+  

@@ -1,28 +1,24 @@
-// p5 file
 
-// open the console window of any browser to see console.log() messages,
-// like print() messages in Processing
-console.log("this is a js comment");
-
-/* void setup(){
-  size(800, 250);
-  background(255);
-} */
-
-function setup() {
+function setup(){
   var myCanvas=createCanvas(800, 250);
-  myCanvas.parent('mySketch')
-  background(255);
-}
+  myCanvas.parent('mySketch');
+  background (85,140,137);
+    }
+  
+  function draw(){
+  
+  if(mouseIsPressed){
+    line(pmouseX,pmouseY,mouseX,mouseY)
+    }
+  
+  if (mouseButton == RIGHT){
+     background(85,140,137);
+  }
+  }
 
-function draw() {
-  // statements here
-  // if the mouse is pressed, change color
-  if (mouseIsPressed){
 
-    fill(0);
-}   else{
-    fill(255);
-}
-ellipse(mouseX, mouseY, 50, 50);
-}
+
+
+
+
+
