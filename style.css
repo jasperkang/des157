@@ -106,16 +106,7 @@ padding-right: .5%;
 
 /* Navigation */
 
-li {
-    text-align: center;  
-}
 
 ul {
-    margin: auto;
-    text-align: center;
-    margin: 40px;
+    margin-top: 10px;
 }
-
-
-
-
