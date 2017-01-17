@@ -10,6 +10,7 @@ padding:0;
 
 body {
 font-family:'Open Sans';
+margin: 24px auto 0px auto;
 }
 
 p {
@@ -18,7 +19,6 @@ margin-bottom: 1em;
 }
 
 h1 {
-
 color: #2B2B2B;
 font-weight: 500;
 }
@@ -28,7 +28,7 @@ font-size:1em;
 }
 
 #wrapper {
-width: 755px;
+width: 800px;
 position:relative;
 margin: auto;
 background-color:#74AFAD;
@@ -37,8 +37,7 @@ background-color:#74AFAD;
 #navcontainer ul {
 background-color: #009090;
 float: left;
-width: 100%;
-padding-right: 32px; 
+width: 832px;
 padding: 0;
 margin: 0;
 }
