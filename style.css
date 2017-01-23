@@ -11,12 +11,21 @@
   box-sizing: border-box;
 }
 
+header#mySketch {
+    width: 800px;
+    height: 250px;
+    margin: 24px auto 0px auto;
+    border: 1px #ddd solid;
+}
+
 h1 {
   color: #3A3A3A;
   font-weight: 300;
   padding-bottom: 30px;
-  padding-left: 30px; 
-  font-family: 'Open Sans';  
+  padding-top: 10px; 
+  font-family: 'Open Sans';
+  width: 800px;
+  margin: auto;    
 }
 
 h2 {
@@ -26,6 +35,12 @@ h2 {
 body {
     background-color: #ECECEA;
 }
+
+section#content {
+    width: auto;
+    margin-left: 10%;
+}
+
 
 /* Footer */
 .footer {
@@ -91,16 +106,7 @@ padding-right: .5%;
 
 /* Navigation */
 
-li {
-    text-align: center;  
-}
 
 ul {
-    margin: auto;
-    text-align: center;
-    margin: 40px;
+    margin-top: 10px;
 }
-
-
-
-
