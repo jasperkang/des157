@@ -3,7 +3,7 @@
     
 <head>
     <meta charset="UTF-8">
-    <title>Eloquent Javascript Chapter 3 Exercise</title>
+    <title>Eloquent Javascript Chapter 13 Exercise</title>
     <style>
         * {
             margin: 0px;
@@ -12,8 +12,8 @@
 
         body {
             font-family: Verdana, Geneva, sans-serif;
-            color: white;
-            background-color: #333;
+            color: black;
+            background-color: white;
             font-size: 11px;
             margin: 24px;
         }
@@ -25,22 +25,36 @@
 </head>
     
 <body>
-    <h1> Chapter 3: Minimum </h1>
-    <h2>open the console to see the results of the script</h2>
-    <script>
-        // Takes two arguements and returns their minimum
-        
-        function min(a, b) {
-        if (a < b)
-            return a;
-        else
-            return b;
-}
-        
-        console.log(min(0, 10));
-        // → 0
-        console.log(min(0, -10));
-        // → -10
-    </script>
+    <h1> Chapter 13: The Cat's Hat </h1>
+   
+    
+    <p style="text-align: center">
+  <img src="cat.jpg" id="cat" style="position: absolute">
+  <img src="hat.jpg" id="hat" style="position: absolute" width=200>
+</p>
+<script>
+  var cat = document.querySelector("#cat");
+  var hat = document.querySelector("#hat");
+  var angle = 0, lastTime = null;
+    var center = {x: 200, y:10};
+    function animate(time) {
+        if (lastTime != null)
+            angle += (time - lastTime) * 0.001;
+        lastTime = time;
+        var catCoords = {x: Math.cos(angle) * 200 + center.x,
+                         y: Math.sin(angle) * 20 + center.y};
+       
+        cat.style.top = (catCoords.y) + "px";
+        cat.style.left = (catCoords.x) + "px";
+        // The following two coordinates will be relative to cat
+        // because of the div setup above
+        hat.style.top = Math.sin(angle)*55 + "px";
+        hat.style.left = Math.cos(angle)*55 + "px";
+        requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+</script>
+    
+    
 
-</body>    
+</body> 
