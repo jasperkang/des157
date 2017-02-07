@@ -56,12 +56,12 @@ document.addEventListener('DOMContentLoaded', function() {
   //watch hover event listener
   watch.addEventListener('mouseover', function() {
     watch.style.opacity=1;
-    watch.src='images/watch.jpg';
+    watch.src='images/watch.png';
   });
   //watch mouseout event listener
   watch.addEventListener('mouseout', function() {
     watch.style.opacity=0;
-    watch.src='images/watch.jpg';
+    watch.src='images/watch.png';
   });
   //watch click
   watch.addEventListener('click', function() {

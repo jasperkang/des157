@@ -62,9 +62,9 @@ header {
 
 #watch {
   position: absolute;
-  width: 45px;
-  top: 0px;
-  left: 290px;
+  width: 80px;
+  top: 8px;
+  left: 276px;
   display: block;
   opacity: 0;
 }
@@ -81,8 +81,8 @@ header {
 
 #keys {
   position: absolute;
-  width: 180px;
-  top: -5px;
+  width: 175px;
+  top: 7px;
   left: 360px;
   display: block;
   opacity: 0;
