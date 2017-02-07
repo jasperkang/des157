@@ -1,0 +1,143 @@
+body {
+  width: 100%;
+  background-color: #ECECEA;
+  font-family: 'Indie Flower';
+  font-size: 25px;
+}
+
+header {
+  position: absolute;
+  font-family: 'Barrio';
+  font-size: 30px;
+  top: 20px;
+  left: 150px;
+}
+
+
+#picture {
+  position: relative;
+  width: 500px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+
+#wallet { 
+  position: absolute;    
+  width: 180px;
+  left: 80px;
+  top: 20px;    
+  display: block;
+  opacity: 1;
+}
+
+#walletInfo {
+  position: absolute;
+  width: 250px;
+  top: 0px;
+  left: -260px;
+  opacity: 0;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+#phone {
+  position: absolute;
+  width: 135px;
+  top: 175px;
+  left: 90px;
+  display: block;
+  opacity: 0;
+}
+
+#phoneInfo {
+  position: absolute;
+  width: 250px;
+  top: 275px;
+  left: -260px;
+  opacity: 0;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+#watch {
+  position: absolute;
+  width: 45px;
+  top: 0px;
+  left: 290px;
+  display: block;
+  opacity: 0;
+}
+
+#watchInfo {
+  position: absolute;
+  width: 200px;
+  top: -150px;
+  right: 50px;
+  opacity: 0;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+#keys {
+  position: absolute;
+  width: 180px;
+  top: -5px;
+  left: 360px;
+  display: block;
+  opacity: 0;
+}
+
+#keysInfo {
+  position: absolute;
+  width: 250px;
+  top: 0px;
+  right: -360px;
+  opacity: 0;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+#knife {
+  position: absolute;
+  width: 50px;
+  top: 150px;
+  left: 490px;
+  display: block;
+  opacity: 0;
+}
+
+#knifeInfo {
+  position: absolute;
+  width: 250px;
+  top: 250px;
+  right: -360px;
+  opacity: 0;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+#footer {
+  padding: 50px 0px 20px;
+  left: 60px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  clear: both;
+  z-index: 10;
+  
+}
+.foot {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+  line-height: 70px;
+  font-family: 'Entypo';
+  font-size: 13px;
+  text-align: center;
+  border-radius: 50%;
+  background: #74AFAD;
+  overflow: hidden;
+  transition: color .3s;
+}
