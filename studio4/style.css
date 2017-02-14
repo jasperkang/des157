@@ -22,10 +22,6 @@ background-size: 100%;
     margin-top: 2.5em;
     margin-right: 1em;
 	border-radius: 50%;
-	-moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    -o-border-radius: 50%;
-    -saf-border-radius: 50%;
 	height: 150px;
 	width: 150px;
 }
@@ -65,7 +61,7 @@ background-size: 100%;
 	margin-top: 1em;
 }
 
-#label{
+.label{
 	color: #fff;
 	font-size: 30pt;
     margin-right: .5em;
