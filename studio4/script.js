@@ -86,7 +86,7 @@ $(document).ready(function(){
        $('.time').css({ 'background-color': '#5F9EA0'});
        
        $('body').css({ 'background-image': 'url(newyear.jpg)'});
-       $('#head2').text("New Year 2014!").css({ 'color': '#fff', 'text-shadow': '0px 3px 3px rgba(0, 0, 255, 0.5)' });
+       $('#head2').text("New Year 2018!").css({ 'color': '#fff', 'text-shadow': '0px 3px 3px rgba(0, 0, 255, 0.5)' });
     });
     
 });
