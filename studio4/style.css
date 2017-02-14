@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body{
+background: url(springbreak.jpg) no-repeat center top;
+background-size: 100%;
+}
+
+#head{
+	color: #fff;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+#head2{
+	color: #fff;
+	text-shadow: 0px 3px 3px rgba(0, 0, 255, 0.5);
+}
+
+.time{
+    background-color: #F64D38;
+    margin-top: 2.5em;
+    margin-right: 1em;
+	border-radius: 50%;
+	-moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    -o-border-radius: 50%;
+    -saf-border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+#head,
+#head2,
+#fday,
+#fhour,
+#fmin,
+#fsec
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: ;
+	font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+
+#container
+{
+   text-align: center;
+}
+
+#display div{
+	display: inline-block;
+}
+
+.timeLeft
+{
+	color: #fff;
+    position: relative;
+    bottom: .2em;
+}
+
+.time span{
+	display: block;
+	margin-top: 1em;
+}
+
+#label{
+	color: #fff;
+	font-size: 30pt;
+    margin-right: .5em;
+}
+
+button{
+	margin: 20px 20px;
+	height: 40px;
+	width: 190px;
+}
+
+/* FOOTER
+––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+footer {
+  position: relative;
+  text-align: center;
+  height: 50px;
+  top: 150px;
+  width: 100%;
+  padding-top: 10px;
+  margin: auto;
+}
+
+footer a {
+  padding-right: 40px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #70C1B3;
+}

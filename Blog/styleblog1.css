@@ -72,6 +72,11 @@ float:left;
 margin:10px;
 }
 
+img {
+position: relative;
+left: -40px;
+}
+
 #article {
 width: 40%;
 float:right;
