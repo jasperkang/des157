@@ -1,0 +1,54 @@
+.list {}
+
+body {
+    background-image: url(foods.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1 {padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+  
+.foods {
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    padding: 0 0 0.5em 0.5em;
+    text-align: center;
+  }
+
+.filter-reset {
+  cursor: pointer;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#filter {
+    position: relative;
+    left:20px;
+    
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  height: 50px;
+  top: 150px;
+  width: 100%;
+  padding-top: 10px;
+  margin: auto;
+}
+
+footer a {
+  color: black;
+  padding: 5px;
+  border-radius: 10%;
+  background-color: #74AFAD;
+  margin-right: 20px;
+  text-decoration: none;
+
+}

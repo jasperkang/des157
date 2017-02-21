@@ -1,0 +1,38 @@
+<html ng-app="app">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    
+  
+    
+<h1>Studio 5: The Library</h1>
+  <body ng-controller="appCtrl as ctrl">
+    <div class="filters">
+      <div>
+        <select name="filter" id="filter" ng-model="filter" ng-options="type for type in foodType" ng-change="changeFilter()"></select>
+      </div>
+        <br>
+      <div>
+        <a ng-click="resetFilter()" class="filter-reset">Reset Filter</a>
+      </div>
+    </div>
+              
+        
+    <div class="list">
+      <p class="foods" ng-repeat="foods in foods | filter: filter">{{foods.food}}  </p>
+    </div>
+  </body>
+    
+    
+       
+       	<footer>
+		<a href="../index.html">Back to Home</a>
+		<a href="https://github.com/jasperkang/des157">Repositories</a>
+		<a href="mailto:thekang@ucdavis.edu">Email Me</a>
+		<a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+	   </footer>
+    
+</html>
