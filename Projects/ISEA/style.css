@@ -80,6 +80,8 @@ li {
 h3 {
     margin-top: 50px;
     font-weight: 100;
+    font-family: 'Helvetica';
+    font-size: 25px;
 }
 html,
 body {
