@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+.branding {
+  padding: 20px 0px 0px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#header {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+  background: #fff;
+  display: table;
+}
+#header h2 {
+  font-size: 20pt;
+  color: ;
+  font-family: 'Cinzel', serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+#navigation {
+  position: relative;
+  top:-15px;
+  width: 100%;
+  height: 50px;
+  background: #8ddd9d;
+  text-align: center;
+  line-height: 50px;
+}
+#navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+
+}
+#navigation ul li a {
+  height: inherit;
+  padding: 0 25px;
+  display: inline-block;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  line-height: inherit;
+  text-transform: uppercase;
+}
+#navigation ul li a:hover {
+  background: #00b6e3;
+  color: #fff;
+}
+#navigation.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#container {
+  min-height: 300%;
+  height: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*body*/
+
+h3 {
+    margin-top: 50px;
+    font-weight: 100;
+    font-family: 'Helvetica';
+    font-size: 25px;
+}
+html,
+body {
+  text-align: center;
+  background: rgb(240, 240, 240);
+  margin-bottom: 50px;
+}
+
+
