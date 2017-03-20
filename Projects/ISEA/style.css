@@ -27,6 +27,17 @@ a {
   text-align: center;
 }
 
+.about {
+    background: #8ddd9d;
+    padding: 30px;
+    width:400px;
+    text-align: left;
+    line-height: 30px;
+    margin: auto; 
+    margin-bottom: 50px;
+}
+
+
 #navigation {
   position: relative;
   top:-15px;
@@ -77,10 +88,10 @@ li {
 
 /*body*/
 
-h3 {
+h3, h4 {
     margin-top: 50px;
     font-weight: 100;
-    font-family: 'Helvetica';
+    font-family: 'Cinzel', serif;
     font-size: 25px;
 }
 html,
@@ -88,6 +99,12 @@ body {
   text-align: center;
   background: rgb(240, 240, 240);
   margin-bottom: 50px;
+}
+
+/*footer*/
+
+#footer {
+    margin-top: 90px;
 }
 
 
